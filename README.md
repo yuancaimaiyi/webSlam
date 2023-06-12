@@ -23,21 +23,21 @@ cd ./webSlam/src/slam
 (3)  example    
 
      i. 安装nodejs 第三方package     
-     ```   
+
      cd ./AlvaAR/examples/   
      npm install    
-     ```    
+
      
      ii. 使用OpenSSL生成开放的key.pem和cert.pem证书文件    
      
-      ```   
+
       openssl genpkey -algorithm RSA -out key.pem      
        openssl req -new -key key.pem -x509 -days 365 -out cert.pem       
-      ```    
+
       iii.  Run server.js   
       
-      ```   
+
       cd ./AlvaAR/examples/     
       npm start  
-      ```    
+
       最后可以https://IP:port/video.html  或者 https://IP:port/camera.html  看到最终的运行结果  
