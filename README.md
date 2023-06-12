@@ -29,4 +29,10 @@ cd ./webSlam/src/slam
       ```    
        openssl genpkey -algorithm RSA -out key.pem    
        openssl req -new -key key.pem -x509 -days 365 -out cert.pem     
+      ```    
+      iii.  Run server.js   
       ```   
+      cd ./AlvaAR/examples/  
+      npm start  
+      ```    
+      最后可以https://IP:port/video.html  或者 https://IP:port/camera.html  看到最终的运行结果  
