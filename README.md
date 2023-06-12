@@ -3,6 +3,7 @@ web slam
 # 环境   
 node version :  v14.17.6    
 ubuntu : 18.04     
+emsdk 链接  [网盘](https://drive.google.com/file/d/1JjnfotmWiNt-fw4nOIpjz39dBkxdEzLA/view?usp=drive_link)     
 #  install     
 （1）安装第三方库    
 ```
