@@ -1,0 +1,3 @@
+[submodule "emsdk_setup"]
+	path = emsdk_setup
+	url = ./emsdk_setup

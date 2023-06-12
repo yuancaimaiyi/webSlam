@@ -134,7 +134,7 @@ build_CERES(){
     -DMINIGLOG:BOOL=1\
     -DEigen3_DIR=$LIB_ROOT/eigen/build/
   emmake make -j install
-  # find $INSTALL_DIR/ceres-solver/include -type f -name '*.h' | xargs sed -i  's#glog/logging.h#ceres/internal/miniglog/glog/logging.h#g'
+  find $INSTALL_DIR/ceres-solver/include -type f -name '*.h' | xargs sed -i  's#glog/logging.h#ceres/internal/miniglog/glog/logging.h#g'
 }
 
 build_OPENGV(){
